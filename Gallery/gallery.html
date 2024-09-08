@@ -3,28 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Gallery</title>
+    <title>Coming Soon</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css">
+    
+    <style> ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #c5c5c5;
+}
+
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: rgb(17, 16, 16);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #9c9c9c;
+}
+
+.active {
+  background-color: #55585754;
+}
+
+.login-user {
+  height: 1em;
+  margin-right: 0.5em;
+  vertical-align: bottom;
+}
+.coming-soon{
+    text-align: center;
+}
+</style>
 </head>
+
 <body>
 
-   <ul>
+    <ul>
+        <li><img src="./UBLLOG2.png" width="70px" alt="Ublhome Logo"></li>
+        <li><div id="box1"><h1>UBLHOME</h1></div></li><br>
+        <li><a href="/Home/index.html">HOME</a></li>
+        <li><a href="/Home/index.html#ABOUT">ABOUT</a></li>
+        <li><a class="active" href="/Gallery/gallery.html">GALLERY</a></li>
+        <li><a href="/Contact/contact.html">CONTACT</a></li>
+        <li style="float:right">
+            <a href="/Login/Login.html">
+                <img src="./Image2.png" alt="Login Icon" class="login-user"/> Log In
+            </a>
+        </li>
+    </ul>
 
-      <li><img src="./UBLLOG2.png" width="70px" alt="Ublhome Logo"></li>
-    <li><div id="box1"><h1>UBLHOME </h1></div></li><br>
-
-    
-   <li><a href="/Home/index.html">HOME</a></li>
-   <li><a href="/Home/index.html#ABOUT">ABOUT</a></li>
-   <li><a class="active" href="/Gallery/gallery.html">GALLERY</a></li>
-   <li><a href="/Contact/contact.html">CONTACT</a></li>
-   <li style="float:right"><a href="#login">
-   <img src="./Image2.png" alt="Login Icon" class="login-user"/>Log In
-   </a></li>
-</ul>
-
-<h1>Gallery</h1>
-
+    <h1 class="coming-soon">COMING SOON</h1>
 
 </body>
 </html>

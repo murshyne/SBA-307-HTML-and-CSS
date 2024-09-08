@@ -36,3 +36,7 @@ li a:hover:not(.active) {
   margin-right: 0.5em;
   vertical-align: bottom;
 }
+
+.contact-us{
+  text-align: center;
+}
