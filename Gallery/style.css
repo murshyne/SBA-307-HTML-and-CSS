@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #c5c5c5;
 }
 
 li {
@@ -17,22 +17,22 @@ li:last-child {
 
 li a {
   display: block;
-  color: white;
+  color: rgb(17, 16, 16);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 li a:hover:not(.active) {
-  background-color: #111;
+  background-color: #9c9c9c;
 }
 
 .active {
-  background-color: #04AA6D;
+  background-color: #55585754;
 }
 
 .login-user {
-   height: 1em;
-   margin-right: 0.5em;
-   vertical-align: bottom;
+  height: 1em;
+  margin-right: 0.5em;
+  vertical-align: bottom;
 }

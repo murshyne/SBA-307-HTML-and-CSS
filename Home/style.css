@@ -22,12 +22,25 @@
     transform: translateY(150px);transform: translateX(150px);transform: rotate(360deg);
  } */
  /* NarBar */
+
+ .navbar {
+    position: sticky; /* Fixes the element relative to the viewport */
+    top: 0; /* Positions it at the top */
+    left: 0; /* Positions it at the left edge */
+    width: 100%; /* Makes the navbar full-width */
+    background-color: #333; /* Background color for visibility */
+    color: #131212; /* Text color */
+    padding: 0%; /* Padding for spacing */
+    z-index: 1000; /* Ensures it stays on top of other content */
+  
+}
+ 
  ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #c5c5c5;
 }
 
 li {
@@ -41,22 +54,22 @@ li:last-child {
 
 li a {
   display: block;
-  color: white;
+  color: rgb(17, 16, 16);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 li a:hover:not(.active) {
-  background-color: #111;
+  background-color: #9c9c9c;
 }
 
 .active {
-  background-color: #04AA6D;
+  background-color: #55585754;
 }
 
 .login-user {
-   height: 1em;
-   margin-right: 0.5em;
-   vertical-align: bottom;
+  height: 1em;
+  margin-right: 0.5em;
+  vertical-align: bottom;
 }
