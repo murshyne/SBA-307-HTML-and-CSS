@@ -3,15 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coming Soon</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css">
-    
-    <style> ul {
+    <title>Gallery</title>
+   
+<style> 
+  
+.navbar {
+  background-color: #8b888875; 
+  color: #131212;
+  padding: 0%;
+  z-index: 1000;
+  
+}
+ 
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #c5c5c5;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 li {
@@ -44,29 +61,46 @@ li a:hover:not(.active) {
   margin-right: 0.5em;
   vertical-align: bottom;
 }
-.coming-soon{
-    text-align: center;
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 0%;
+  text-align: center;
+  background-color: #f8f9fa00;
 }
+
+#CSBOX {
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
 </style>
 </head>
 
 <body>
+  <ul>
+    <li><img src="./UBLLOG2.png" width="70px" alt="Ublhome Logo"></li>
+    <li><div id="box1"><h1>UBLHOME</h1></div></li><br>
+    <li><a href="/Home/index.html">HOME</a></li>
+    <li><a href="/Home/index.html#ABOUT">ABOUT</a></li>
+    <li><a class="active" href="/Gallery/gallery.html">GALLERY</a></li>
+    <li><a href="/Contact/contact.html">CONTACT</a></li>
+    <li style="float:right"><a href="/Login/Login.html">
+      <img src="./Image2.png" alt="Login Icon" class="login-user"/>Login</a></li>
+  </ul>
 
-    <ul>
-        <li><img src="./UBLLOG2.png" width="70px" alt="Ublhome Logo"></li>
-        <li><div id="box1"><h1>UBLHOME</h1></div></li><br>
-        <li><a href="/Home/index.html">HOME</a></li>
-        <li><a href="/Home/index.html#ABOUT">ABOUT</a></li>
-        <li><a class="active" href="/Gallery/gallery.html">GALLERY</a></li>
-        <li><a href="/Contact/contact.html">CONTACT</a></li>
-        <li style="float:right">
-            <a href="/Login/Login.html">
-                <img src="./Image2.png" alt="Login Icon" class="login-user"/> Log In
-            </a>
-        </li>
-    </ul>
+<div class="container">
+  <div id="CSBOX" class="Boxes"><h1>COMING SOON</h1><iframe src="https://giphy.com/embed/yJwXlLESRVkFd6yQVr" width="480" height="480" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+<h1>UNDER CONSTRUCTION</h1>
+</div>
+</div>
 
-    <h1 class="coming-soon">COMING SOON</h1>
+
+    
+      
 
 </body>
 </html>

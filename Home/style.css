@@ -1,46 +1,44 @@
-/* body{
-    display: flex;
-    justify-content: center;
-    height: 100vh;
-    align-items: center;
-} */
-/* #box1 {
-    background-color: yellow;
-    width: 100PX;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition-property: all;
-    transition-duration: 2s;
- } */
- /* #box1:hover {
-    background-color: lightskyblue;
-    font-size: 100px;
-    width: 200PX;
-    height: 200px;
-    transform: translateY(150px);transform: translateX(150px);transform: rotate(360deg);
- } */
- /* NarBar */
 
- .navbar {
-    position: relative; /* Fixes the element relative to the viewport */
-    top: 0; /* Positions it at the top */
-    left: 0; /* Positions it at the left edge */
-    width: 100%; /* Makes the navbar full-width */
-    background-color: #8b888875; /* Background color for visibility */
-    color: #131212; /* Text color */
-    padding: 0%; /* Padding for spacing */
-    z-index: 1000; /* Ensures it stays on top of other content */
+#box1 {
+  background-color: rgb(175, 175, 170);
+  width: 60PX;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-property: all;
+  transition-duration: 2s;
+}
+ #box1:hover {
+  background-color: rgb(26, 28, 29);
+  font-size: 100px;
+  width: 0PX;
+  height: 0px;
+  transform: translateY(150px);transform: translateX(150px);transform: rotate(360deg);
+ }
+ 
+.navbar {
+  background-color: #8b888875; 
+  color: #131212;
+  padding: 0%;
+  z-index: 1000;
   
 }
  
- ul {
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #c5c5c5;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 li {
